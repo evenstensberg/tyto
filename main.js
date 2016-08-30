@@ -1,3 +1,3 @@
-var compare = require('./lib/compare')
+const compare = require('./lib/compare');
 
-module.exports = compare
+module.exports = compare;

@@ -1,16 +1,16 @@
 #!/usr/local/bin/node
-const compare = require('./lib/compare')
-const repl = require('repl')
+const compare = require('./lib/compare');
+const repl = require('repl');
 
 repl.start({prompt: '>', eval: myEval, writer: myWriter});
 
 function myEval(cmd, context, filename, callback) {
   callback(null,cmd);
-}
+};
 
 function myWriter(output) {
   let fn = function(output) {
-    return output*output
+    return output*output;
   }
-  return compare([output.trim()], fn)
-}
+  return compare([output.trim()], fn);
+};
