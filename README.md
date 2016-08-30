@@ -2,7 +2,7 @@
 #:maple_leaf: <a href='https://github.com/ev1stensberg/tyto'>Tyto<a/> :maple_leaf:
 
 [![NPM](https://nodei.co/npm/tyto.png)](https://npmjs.org/package/tyto)
-
+***
 ##:deciduous_tree: How to Use this module :deciduous_tree:
 
 Tyto is a small module, that will output what has happend to your object before and after running an function on it. It will not modify the object you pass into as arguments. This is a great way to test any changes to your object.
