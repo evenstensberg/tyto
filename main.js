@@ -1,3 +1,3 @@
 var compare = require('./lib/compare')
 
-export default compare;
+module.exports = compare
