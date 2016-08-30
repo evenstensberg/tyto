@@ -1,4 +1,5 @@
-#:maple_leaf: Tyto :maple_leaf:[![NPM](https://nodei.co/npm/tyto.png)](https://npmjs.org/package/tyto)
+#:maple_leaf: Tyto :maple_leaf:
+[![NPM](https://nodei.co/npm/tyto.png)](https://npmjs.org/package/tyto)
 
 ##:deciduous_tree: How to Use this module :deciduous_tree:
 
