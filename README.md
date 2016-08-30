@@ -1,4 +1,6 @@
-#:maple_leaf: Tyto :maple_leaf:
+# <a href='https://github.com/ev1stensberg/tyto'><img src="https://s21.postimg.org/44hwqa7s7/tyto.png" align="left" height="180" "/></a>
+#:maple_leaf: <a href='https://github.com/ev1stensberg/tyto'>Tyto<a/> :maple_leaf:
+
 [![NPM](https://nodei.co/npm/tyto.png)](https://npmjs.org/package/tyto)
 
 ##:deciduous_tree: How to Use this module :deciduous_tree:
@@ -20,9 +22,7 @@ If you have any bugs or issues, please, do [file an issue](https://github.com/ev
 
 ```js
 const tyto = require('tyto');
-const fn = (num) => (num*num);
-
-const out = tyto([2,4,6,8,10], fn)
+const out = tyto([2,4,6,8,10], (num) => (num*num))
 // outputs [[2,4,6,8,10], [4, 16, 36, 64, 100]]
 // Before: out[0] After: out[1]
 ```
@@ -31,7 +31,7 @@ const out = tyto([2,4,6,8,10], fn)
 ######:warning: Make sure you've installed using `sudo npm install -g tyto`
 
 1. Open terminal and type `tyto`
-2. Write any number and watch the output. 
+2. Write any number and watch the output.
 3. First value is what you got before and the other one was the one you have modified
 
 ######Note that we only multiply the number you enter, as for now. We are planning to let you make your own functions using the repl
