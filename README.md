@@ -59,3 +59,10 @@ const out = tyto([2,4,6,8,10], (num) => (num*num))
 
 ###### Returns: <Array> an array with the initial values of the object
 
+##hunt(obj, fn)
+
+- Obj<Array | Object> - Array or Object, that you are modifying with the second argument
+- fn<Function> - Function you are modifying first argument with
+
+###### Returns: <Array> an array with the initial values of the object and an console log if changes were made
+
