@@ -1,5 +1,5 @@
 #!/usr/local/bin/node
-const compare = require('./lib/compare');
+const compare = require('./main').compare
 const repl = require('repl');
 
 repl.start({prompt: '>', eval: myEval, writer: myWriter});
