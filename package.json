@@ -1,6 +1,6 @@
 {
   "name": "tyto",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Ultra light testing module to test object changes on the fly",
   "repository": "https://github.com/ev1stensberg/tyto",
   "main": "main.js",
