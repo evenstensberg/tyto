@@ -21,8 +21,8 @@ If you have any bugs or issues, please, do [file an issue](https://github.com/ev
 #Local Usage
 
 ```js
-const tyto = require('tyto');
-const out = tyto([2,4,6,8,10], (num) => (num*num))
+const compare = require('tyto').compare;
+const out = compare([2,4,6,8,10], (num) => (num*num))
 // outputs [[2,4,6,8,10], [4, 16, 36, 64, 100]]
 // Before: out[0] After: out[1]
 ```
