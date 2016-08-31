@@ -35,3 +35,27 @@ const out = tyto([2,4,6,8,10], (num) => (num*num))
 3. First value is what you got before and the other one was the one you have modified
 
 ######Note that we only multiply the number you enter, as for now. We are planning to let you make your own functions using the repl
+
+#API 
+
+##compare(obj, fn)
+
+- Obj<Array | Object> - Array or Object, that you are modifying with the second argument
+- fn<Function> - Function you are modifying first argument with
+
+###### Returns: <Array> First array with the initial `value[0]` and second `value[1]` is the one that has been modifyed
+
+##fly(obj, fn)
+
+- Obj<Array | Object> - Array or Object, that you are modifying with the second argument
+- fn<Function> - Function you are modifying first argument with
+
+###### Returns: <Array> an array with the returned value of changes to your object
+
+##flap(obj, fn)
+
+- Obj<Array | Object> - Array or Object, that you are modifying with the second argument
+- fn<Function> - Function you are modifying first argument with
+
+###### Returns: <Array> an array with the initial values of the object
+
